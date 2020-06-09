@@ -1,3 +1,5 @@
+package main.com.tumilok.java;
+
 import com.ericsson.otp.erlang.*;
 
 import java.io.IOException;

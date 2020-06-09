@@ -1,3 +1,5 @@
+package main.com.tumilok.java;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,8 +10,8 @@ public class Main {
         Integer[] day = {12,4,5};
         int hour = 23;
 
-        //serverHandler.addStation("StationName2", 3443, 3235);
-        //serverHandler.addValue("StationName2", date, "TP24", 34.6);
+        serverHandler.addStation("StationName2", 3443, 3235);
+        serverHandler.addValue("StationName2", date, "TP24", 34.6);
         //serverHandler.removeValue("StationName2", date, "TP24");
         //serverHandler.getOneValue("StationName1", date, "TP25");
         //serverHandler.getStationMean("StationName1", "TP25");
@@ -17,10 +19,10 @@ public class Main {
         //serverHandler.getHourlyMean("TP25", hour);
         //serverHandler.getDailyAverageDataCount("StationName1", date);
         //serverHandler.getDailyOverLimit(date, "TP24", 10);
-        //serverHandler.getMaximumGradientStations("TP24");
+        serverHandler.getMaximumGradientStations("TP24");
         //serverHandler.getMinValue("TP24");
         //serverHandler.getMaxValue("TP24");
-        //serverHandler.print();
-        //serverHandler.stop();
+        serverHandler.print();
+        serverHandler.stop();
     }
 }
